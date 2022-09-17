@@ -3,7 +3,7 @@
     max-width: 46rem;
 
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 5.5rem;
 
     padding: 0 1rem;
 
@@ -12,7 +12,9 @@
         align-items: center;
         justify-content: space-between;
 
-        >div { 
+        margin-bottom: 1.5rem;
+
+        div { 
             display: flex;
             align-items: center;
             gap: 12px;
@@ -35,9 +37,15 @@
 
             background-color: var(--gray-400);
 
-            padding: 2px 8px;
+            padding: 3px 9px;
 
             border-radius: 999px;
         }
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 }

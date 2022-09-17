@@ -1,4 +1,5 @@
-import styles from "./task.module.scss"
+import { Task } from "../Task"
+import styles from "./tasks.module.scss"
 
 export function Tasks() {
     return (
@@ -14,6 +15,12 @@ export function Tasks() {
                     <span>2 de 5</span>
                 </div>
             </header>
+
+            <div className={styles.list}>
+                <Task />
+                <Task />
+                <Task />
+            </div>
         </section>
     )
 }
