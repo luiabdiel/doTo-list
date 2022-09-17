@@ -1,7 +1,12 @@
+import { Itask } from "../../App"
 import { Task } from "../Task"
 import styles from "./tasks.module.scss"
 
-export function Tasks() {
+interface Props {
+    tasks: Itask[]
+}
+
+export function Tasks({ tasks }: Props) {
     return (
         <section className={styles.tasks}>
             <header className={styles.header}>
@@ -17,9 +22,11 @@ export function Tasks() {
             </header>
 
             <div className={styles.list}>
-                <Task />
-                <Task />
-                <Task />
+                
+            {tasks.map((task) => {
+                return <Task />
+            })}
+
             </div>
         </section>
     )
