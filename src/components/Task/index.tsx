@@ -2,8 +2,13 @@ import { TbTrash } from "react-icons/tb";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
 import styles from "./task.module.scss"
+import { Itask } from "../../App";
 
-export function Task() {
+interface Props {
+    task: Itask
+}
+
+export function Task({ task }: Props) {
     return (
         <div className={styles.task}>
             <button 
@@ -11,7 +16,7 @@ export function Task() {
                 <div />
             </button>
 
-            <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
+            <p>{task.title}</p>
             
             <button 
                 className={styles.deleteButton}>
