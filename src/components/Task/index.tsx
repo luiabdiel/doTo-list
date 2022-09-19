@@ -6,18 +6,22 @@ import { Itask } from "../../App";
 
 interface Props {
     task: Itask
-    onDelete: (taskId: string) => void 
+    onDelete: (taskId: string) => void
+    onComplete: (taskId: string) => void
 }
 
-export function Task({ task, onDelete }: Props) {
+export function Task({ task, onDelete, onComplete }: Props) {
     return (
         <div className={styles.task}>
             <button 
+                onClick={() => onComplete(task.id)}
                 className={styles.checkContainer}>
-                <div />
+                {task.isCompleted ? <BsFillCheckCircleFill /> : <div />}
             </button>
 
-            <p>{task.title}</p>
+            <p className={task.isCompleted ? styles.textCompleted : ""}>
+                {task.title}
+            </p>
             
             <button 
                 className={styles.deleteButton} 
