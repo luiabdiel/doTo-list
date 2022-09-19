@@ -6,9 +6,10 @@ import { Itask } from "../../App";
 
 interface Props {
     task: Itask
+    onDelete: (taskId: string) => void 
 }
 
-export function Task({ task }: Props) {
+export function Task({ task, onDelete }: Props) {
     return (
         <div className={styles.task}>
             <button 
@@ -19,7 +20,8 @@ export function Task({ task }: Props) {
             <p>{task.title}</p>
             
             <button 
-                className={styles.deleteButton}>
+                className={styles.deleteButton} 
+                onClick={() => onDelete(task.id)}>
                 <TbTrash size={18} />
             </button>
         </div>

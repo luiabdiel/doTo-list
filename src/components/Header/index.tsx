@@ -30,7 +30,7 @@ export function Header({ onAddTask }: Props) {
                 <input 
                     placeholder="Adicione uma nova tarefa" 
                     onChange={onChangeTitle}
-                    title={title}
+                    value={title}
                 />
                 <button>
                     Criar
