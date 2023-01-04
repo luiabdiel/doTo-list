@@ -8,7 +8,7 @@
     toDo
 </h1>
 
-![Design preview from Mohid Ecommerce](./src/assets/template.png)
+![Design preview from toDo](./src/assets/template.png)
 
 <p align="center">toDo for study purposes. <a href="https://inspiring-crisp-5f0662.netlify.app">Deploy</a></p>
 
