@@ -29,7 +29,7 @@
 
 ```shell
 git clone https://github.com/luiabdiel/doTo-list.git
-cd mohid
+cd doTo-list
 npm i
 npm run dev
 ```
