@@ -10,7 +10,7 @@
 
 ![Design preview from Mohid Ecommerce](./src/assets/template.png)
 
-<p align="center"><a href="https://www.figma.com/file/F2M65bUd25vOCNfdvmeDTk/Minimal-Finance-Dashboard-(Community)?node-id=0%3A1&t=srSRkEelB2XBeXZb-0">toDo</a>  for study purposes. <a href="https://inspiring-crisp-5f0662.netlify.app">Deploy</a></p>
+<p align="center">toDo for study purposes. <a href="https://inspiring-crisp-5f0662.netlify.app">Deploy</a></p>
 
 <hr>
 
@@ -23,20 +23,15 @@
 
 <br>
 
-## Login
-Email: eve.holt@reqres.in
-password: 123 
-
 # Getting Started with Vite
 
 ## Clone the repo, install dependencies, and start the Hugo server locally.
 
 ```shell
-git clone https://github.com/luiabdiel/Mohid.git
+git clone https://github.com/luiabdiel/doTo-list.git
 cd mohid
 npm i
 npm run dev
-npm run dev:server
 ```
 
 ## Available Scripts
@@ -50,10 +45,6 @@ Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm run dev:server`
-
-project developed with json library to simulate a backend.
 
 ## Learn More
 
