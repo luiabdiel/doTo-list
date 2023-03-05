@@ -14,6 +14,8 @@ export function Header({ onAddTask }: Props) {
     function handleSubmit(event: FormEvent) {
         event.preventDefault()
 
+        if (!title.trim() || title.length === 0) return
+        
         onAddTask(title)
         setTitle("")
     }
