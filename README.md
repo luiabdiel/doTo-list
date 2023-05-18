@@ -1,53 +1,37 @@
-<div align="center">
- 
-[![Emblemas](http://ForTheBadge.com/images/badges/built-with-love.svg)](#)
- 
- </div>
-
-<h1 align="Star">
-    toDo
-</h1>
+# **toDo-list**: gerenciador de tarefas online e gratuito
 
 ![Design preview from toDo](./src/assets/template.png)
 
-<p align="center">toDo for study purposes. <a href="https://inspiring-crisp-5f0662.netlify.app">Deploy</a></p>
+## **Descrição**
+O doTo-list é um gerenciador de tarefas online e gratuito, desenvolvido para facilitar o controle das suas tarefas do dia a dia. Com uma interface simples e funcional, o projeto é perfeito para uso pessoal.
 
-<hr>
+## **Funcionalidades**
+O doTo-list possui as seguintes funcionalidades:
 
-[![Linkdin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiggiabdiel/)
+* Criar uma nova tarefa: Adicione uma nova tarefa à lista informando o título e a descrição.
+* Marcar como concluída: Ao concluir uma tarefa, você pode marcá-la como concluída para acompanhamento.
+* Apagar tarefa: Caso não precise mais de uma tarefa, você pode excluí-la da lista.
 
-<br>
+## **Tecnologias Utilizadas**
+O doTo-list foi desenvolvido utilizando as seguintes tecnologias:
+* React
+* TypeScript
+* Sass
 
-## Resources
-[![Resources](https://skillicons.dev/icons?i=react,ts,styledcomponents,git)](https://skillicons.dev)
+## **Instalação**
+Siga as instruções abaixo para executar o projeto localmente:
 
-<br>
+1. Certifique-se de ter o Node.js instalado em seu computador.
+2. Faça o clone deste repositório para o seu ambiente local.
+3. Acesse o diretório raiz do projeto através do terminal.
+4. Execute o comando '__npm install__' para instalar as dependências.
+5. Após a instalação, execute o comando '__npm start__' para iniciar o servidor de desenvolvimento.
 
-# Getting Started with Vite
+## **Deploy**
+Você pode acessar o doTo-list através do seguinte link: __https://inspiring-crisp-5f0662.netlify.app/__
 
-## Clone the repo, install dependencies, and start the Hugo server locally.
+## **Contribuição**
+Se você deseja contribuir para o aprimoramento do doTo-list, fique à vontade para abrir uma issue ou enviar um pull request.
 
-```shell
-git clone https://github.com/luiabdiel/doTo-list.git
-cd doTo-list
-npm i
-npm run dev
-```
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.\
-Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Licença**
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo '__LICENSE__' para obter mais informações.
