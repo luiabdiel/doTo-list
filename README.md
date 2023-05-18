@@ -1,4 +1,4 @@
-# **toDo-list**: gerenciador de tarefas online e gratuito
+# **toDo-list**: Gerenciador de Tarefas Online
 
 ![Design preview from toDo](./src/assets/template.png)
 
